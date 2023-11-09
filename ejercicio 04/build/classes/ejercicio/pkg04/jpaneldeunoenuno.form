@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jpanelempleado" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jpanelempleado" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jpanelempleado">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="btninicio" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="btnanterior" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="btnsiguiente" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="btnfinal" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="btncreado_masivo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btncrear" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnordenar" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnexportar" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btncalcular" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lblnumero" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblaux2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblaux1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblfecha" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblsueldo_max" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblsueldo" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lblnombre" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="txtaux1" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtfecha" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtsueldo_max" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtsueldo" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtnombre" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtnumero" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="txtaux2" alignment="1" min="-2" pref="340" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                                      <Component id="tipoemple" min="-2" pref="366" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Component id="btnCargar" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="46" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="tipoemple" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="21" max="32767" attributes="0"/>
+                  <Component id="btnCargar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblnumero" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtnumero" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btncalcular" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtnombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblnombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btncreado_masivo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtsueldo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblsueldo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btncrear" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtsueldo_max" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblsueldo_max" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnordenar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="txtfecha" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="lblfecha" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnexportar" alignment="3" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtaux1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblaux1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtaux2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblaux2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btninicio" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnanterior" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnfinal" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnsiguiente" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="btnCargar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cargar Empleados"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCargarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnexportar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Exportar Empleados"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnexportarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btncrear">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Crear nuevo Empleado"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btncrearActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblnumero">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="NUMERO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblnombre">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="NOMBRE"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblsueldo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SUELDO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblsueldo_max">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SUELDO MAXIMO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblfecha">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="FECHA DE ALTA"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblaux1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="aaaaaaa"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblaux2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="AAAAAAA"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="tipoemple">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="Item 1"/>
+                <StringItem index="1" value="Item 2"/>
+                <StringItem index="2" value="Item 3"/>
+                <StringItem index="3" value="Item 4"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tipoempleActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtnumero">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtnombre">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtsueldo">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtsueldo_max">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtfecha">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtaux1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtaux2">
+        </Component>
+        <Component class="javax.swing.JButton" name="btninicio">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ir al primer Empleado"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btninicioActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnanterior">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Empleado Anterior"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnanteriorActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnfinal">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ir al ultimo Empleado"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnfinalActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnsiguiente">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Empleado Siguiente"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsiguienteActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btncreado_masivo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Creado masivo de Empleados"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btncreado_masivoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btncalcular">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calcular"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btncalcularActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnordenar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ordenar Empleados"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnordenarActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
